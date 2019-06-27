@@ -1,0 +1,50 @@
+
+.tela-login{
+    /* display: flex; */
+    border: 1px solid #000;
+    width: 500px;
+    margin: 100px auto;
+    background: #999;
+}
+
+.tela-login .container{
+    margin: 0 auto;
+}
+
+.tela-login form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tela-login img{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.form_campo{
+    display: flex;
+}
+
+
+input[type="email"],
+input[type="password"],
+input[type="submit"]{
+    width:92%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"]{
+    background:#fff;
+    border:1px solid #ccc;
+    font-family:'Open Sans',sans-serif;
+    font-size:95%;
+    color:#555;
+}
+
+.form .login label{
+    display: flex;
+}

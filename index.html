@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>myTapp</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+
     <div class="tela-login">
         <div class="container">
-
-            <input type="email" name="login">
-            <input type="password" name="senha">
-            <input type="submit" value="login">
-
+            <h1>LOG IN</h1>
+            <img src="images/mytapp.png" alt="My Tapp">
+            <form class="form login" method="post">
+                <label class="form_campo" for=""><img src="images/icon-user.svg" alt="User icon"></label>
+                    <input class="form_campo" type="email" name="email" placeholder="Email" />
+                    <label class="form_campo" for=""><img src="images/icon-pass.svg" alt="Password icon"></label>
+                    <input class="form_campo" type="password" name="password" placeholder="Passaword" />
+                <input type="submit" value="ENTRAR" />
+            </form>
         </div>
     </div>
 
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
